@@ -1,0 +1,53 @@
+:root {
+  --background-color: beige;
+  --text-color: black;
+  --button-color: blue;
+
+}
+
+[data-theme="dark"] {
+  --background-color: darkslategray;
+  --text-color: white;
+  --button-color: gray;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+} 
+
+h1, h2, h3, p{
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
