@@ -41,3 +41,58 @@
         cursor: pointer;
     }
 }
+
+.info button {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow : 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out, transform 200ms ease-in-out;
+}
+
+.info button:hover {
+    transform: scale(1.1);
+}
+
+.info button:active {
+    transform: translateY(10px);
+    transform: scale(0.9);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (width <= 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        height: 100dvh;
+        min-height: 500px;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .hero {
+        width: 50%;
+    }
+}
+
+@media (width <= 1400px) {
+    .container {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .hero {
+        width: 90%;
+    }
+    
+}

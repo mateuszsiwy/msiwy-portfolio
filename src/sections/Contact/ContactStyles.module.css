@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+textarea, input:not([type="submit"]) {
+    height: 50px;
+    padding-left: 16px;
+    width: 350px;
+}
+
+textarea {
+    padding-top: 16px;
+    resize: none;
+    height: 250px;
+}
+
+textarea, input {
+    border-radius: 20px;
+    border: #888 1px solid;
+    box-sizing: border-box;
+    justify-self: center;
+    background-color: var(--background-color);
+    color: var(--form-text-color);
+    
+}
+
+::placeholder {
+    color: var(--form-text-color);
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type='submit'] {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow : 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out, transform 200ms ease-in-out;
+    margin: auto;
+}
+
+input[type='submit']:hover {
+    transform: scale(1.1);
+}
+
+input[type='submit']:active {
+    transform: translateY(10px);
+    transform: scale(0.9);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 800px) {
+    textarea, input:not([type="submit"]) {
+        width: 600px;
+        font-size: 20px;
+    }
+    form {
+        gap: 40px;
+    }
+    textarea {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1400px) {
+    textarea, input:not([type="submit"]) {
+        width: 800px;
+        font-size: 20px;
+    }
+
+}

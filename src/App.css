@@ -1,14 +1,15 @@
 :root {
   --background-color: beige;
   --text-color: black;
-  --button-color: blue;
-
+  --button-color: darkslategray;
+  --button-text-color: beige;
 }
 
 [data-theme="dark"] {
   --background-color: darkslategray;
   --text-color: white;
-  --button-color: gray;
+  --button-color: beige;
+  --button-text-color: darkslategray;
 }
 
 body {

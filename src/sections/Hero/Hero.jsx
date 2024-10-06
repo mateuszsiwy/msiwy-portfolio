@@ -31,8 +31,11 @@ function Hero() {
                 </div>
                 <h2 className={styles.heroSubtitle}>.Net Developer</h2>
                 <p className={styles.heroQuote}>
-                    With passion for developing modern, fast and interesting .Net applications
+                    With a passion for developing fast, modern and innovative .Net applications
                 </p>
+                <a href="" download>
+                    <button className="hover">Resume</button>
+                </a>
             </div>
             
         </section>
