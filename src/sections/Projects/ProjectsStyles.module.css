@@ -25,13 +25,18 @@
 }
 
 .container a{
-    width: fit-content;
+    width: 300px;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
     background-color: var(--button-color);
     border-radius: 20px;
-    padding: 70px;
+    padding: 40px;
 }
+.container p {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
 
 .container a img{
     max-width: 250px;
