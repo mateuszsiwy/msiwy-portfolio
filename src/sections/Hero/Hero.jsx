@@ -33,7 +33,7 @@ function Hero() {
                 <p className={styles.heroQuote}>
                     With a passion for developing fast, modern and innovative .Net applications
                 </p>
-                <a href="" download>
+                <a href="../../assets/MateuszSiwyCV.pdf" download>
                     <button className="hover">Resume</button>
                 </a>
             </div>
