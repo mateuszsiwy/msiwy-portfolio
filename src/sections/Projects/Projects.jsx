@@ -15,7 +15,7 @@ function Projects() {
         <br/><br/>
         <h2>Fullstack Apps</h2>
         <div className={styles.projects}>
-            <ProjectCard src={black} link='https://github.com/mateuszsiwy/ApartmentManagementSystem' h3='Apartment Management System' p='aplikacja webowa, która umożliwia zarządzanie danymi za pomocą interfejsu API zgodnego z modelem Model-View.'/>
+            <ProjectCard src={black} link='https://github.com/mateuszsiwy/ApartmentManagementSystem' h3='Apartment Management System' p='A web application that allows data management through an API interface.'/>
 
             <ProjectCard src={black} link='https://github.com/mateuszsiwy/Chat-Application' h3='Chat Application' p='Chat Application is a .NET desktop application built using Windows Forms that allows users to communicate in real time over a local server.'/>
 
